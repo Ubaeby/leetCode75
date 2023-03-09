@@ -13,6 +13,7 @@
 //utilized floyd's cycle algorithm or tortoise hare method of searching.
 //by creating a two pointers, we can loop through the node with our fast pointer searching further while slow pointer looks one at a time
 //once finished, the solution should give us the middle of the linked list every time.
+//Day 4
 var middleNode = function(head) {
     let sPointer = head;
     let fPointer = head;
